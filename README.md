@@ -12,7 +12,7 @@ Below, I will share with you an agenda to follow along with the main concepts of
 
 There are 16 topics I want you to learn. 
 
-But worry not ! We have 7 days to tackle this.
+But worry not ! We have all this week to tackle this.
 
 With some topics there are exercises in order to consolidate what you learned.
 
