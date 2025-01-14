@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300;1,75..100,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,75..100;1,75..100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,600;1,75..100,600&display=swap');
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(52, 52, 52);
+  color: white;
+}
+
+body {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(99, 95, 95);
+  padding: 30px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  border-bottom: 1px solid white;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #ffb30e;
+  background-color: rgb(99, 95, 95);
+
+}
+
+p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 500px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 2;
+}
+
+p span {
+  color: #ffb30e;
+}
+
+a {
+  text-align: center;
+  color: black;
+  background-color: #ffaf03;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:hover {
+  background-color: #fbca62;
+}
