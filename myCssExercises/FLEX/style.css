@@ -8,10 +8,15 @@
   box-sizing: border-box;
 }
 
+img.title {
+  width: 150px;
+  height: auto;
+}
+
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #2D4480;
+  background-color: rgb(255, 115, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +26,6 @@ body {
 .container {
   width: 288px;
   height: 503px;
-  border: 2px solid  black;
 }
 
 .card {
@@ -61,6 +65,9 @@ img {
 }
 
 .features div {
+  position: relative;
+  top: -20px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   gap: 23px;
@@ -73,6 +80,9 @@ img {
 }
 
 .footer {
+  position: relative;
+  top: -25px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,6 +92,7 @@ img {
 .free {
   padding: 0;
   margin-top: -10px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.13em;
@@ -89,10 +100,48 @@ img {
 }
 
 .forever {
-  margin-bottom: 30px;
+  position: relative;
+  top: -15px;
+  margin-top: 0;
   margin-left: 70px;
   font-family: "Allan";
   font-weight: 400;
   font-size: 36px;
-  color: #2D4480;
+  color: orange;
 }
+
+.start {
+  position: relative;
+  top: -35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 181px;
+  height: 68px;
+  border-radius: 27px;
+  background-color: #737373;
+  font-family: 'Noto Sans Symbols';
+  letter-spacing: 0.06em;
+  line-height: 32.8px;
+  transition: background-image 0.3 ;
+}
+
+.button p {
+  font-weight: 1000;
+  color: #f9f9f9;
+  font-size: 16px;
+}
+
+
+
+.start:hover {
+  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzZkYjdwZzdqdXBhOW5nNmZmMnZtanZ1OTNlc3Y3OTVrc3NnMnB2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1MWtq6NyTgwve/giphy.webp);
+  background-repeat: no-repeat; /* Ensure the GIF doesn't repeat */
+  background-position: center; /* Center the GIF inside the button */
+  background-size: cover; /* Adjust size to cover the button area */
+  width: 181px; /* Keep the button size consistent */
+  height: 68px; /* Keep the button size consistent */
+}
+  
+
