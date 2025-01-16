@@ -47,5 +47,17 @@
         <p class="start">GET STARTED</p>
       </div>
     </div>
+    <script>
+      const startButton = document.querySelector('.start');
+      const body = document.querySelector('body');
+
+      startButton.addEventListener('mouseover', () => {
+        body.style.backgroundColor = 'rgb(140,176,78)'; // Change background color on hover
+      });
+
+      startButton.addEventListener('mouseout', () => {
+        body.style.backgroundColor = 'rgb(255, 115, 0)'; // Revert to original color
+      });
+    </script>
   </body>
 </html>
