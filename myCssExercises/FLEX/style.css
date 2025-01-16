@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2D4480;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  width: 288px;
+  height: 503px;
+  border: 2px solid  black;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 288px;
+  height: 469px;
+  border-radius: 27px;
+  background-color: #FFFFFF;
+  font-family: 'Noto Sans Symbols';
+}
+
+p.title {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.features div {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-right: 16px;
+}
+
+.line {
+  width: 188px;
+  border: 1px solid black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.free {
+  padding: 0;
+  margin-top: -10px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.13em;
+  margin-bottom: 0;
+}
+
+.forever {
+  margin-bottom: 30px;
+  margin-left: 70px;
+  font-family: "Allan";
+  font-weight: 400;
+  font-size: 36px;
+  color: #2D4480;
+}
