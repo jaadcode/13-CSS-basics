@@ -95,3 +95,11 @@ With some topics there are exercises in order to consolidate what you learned.
 - [CSS Custom variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) 
 - [BEM](https://css-tricks.com/bem-101/)                  
 
+
+### JAADCODE'S WORK
+
+## FLEX
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTR6MjViamZjcDczMTVma2VwdW9ra2w1bzlkZWs5cTM0NGQxdTZwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/toYIS95xETUPLmU9WP/giphy.gif)
+https://jaadcode.github.io/13-CSS-basics/myCssExercises/FLEX/
+
+
